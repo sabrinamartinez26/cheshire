@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^leitores(.*)$ index.php?pagina=leitores [L]
+RewriteRule ^usuarios(.*)$ index.php?pagina=usuarios [L]
+RewriteRule ^livros(.*)$ index.php?pagina=livros [L]
+RewriteRule ^categorias(.*)$ index.php?pagina=categorias [L]
+RewriteRule ^cargos(.*)$ index.php?pagina=cargos [L]
+RewriteRule ^locais(.*)$ index.php?pagina=locais [L]
+RewriteRule ^editoras(.*)$ index.php?pagina=editoras [L]
+RewriteRule ^grupos(.*)$ index.php?pagina=grupos [L]
+RewriteRule ^acessos(.*)$ index.php?pagina=acessos [L]
+RewriteRule ^devolucoes_hoje(.*)$ index.php?pagina=devolucoes_hoje [L]
+RewriteRule ^devolucoes_atraso(.*)$ index.php?pagina=devolucoes_atraso [L]
+RewriteRule ^devolucoes(.*)$ index.php?pagina=devolucoes [L]
+RewriteRule ^empretimos_todos(.*)$ index.php?pagina=empretimos_todos [L]
+RewriteRule ^emprestimos(.*)$ index.php?pagina=emprestimos [L]
+RewriteRule ^solicitacoes(.*)$ index.php?pagina=solicitacoes [L]

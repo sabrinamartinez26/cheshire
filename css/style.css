@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+  body {
+  background-image: url("img/background.png");
+  background-size: 100%;
+  background-opacity: 0.5;
+  background-position: center;
+}
+
+.login{
+  width: 360px;
+  margin: auto;
+  padding: 8% 0 0;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #23243C;
+  max-width: 500px; /* Aumentar a largura*/
+  margin: 0 auto; /* Centralizar horizontalmente */
+  padding: 35px 60px 60px 60px; /* Ajuste de preenchimento */
+  text-align: center;
+  border-radius: 10px; /* Adicione bordas arredondadas */
+ box-shadow: 0 0 20px 0 rgba(29, 35, 47), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+
+.form input {
+  font-family: "Verdana", sans-serif;
+  outline: 0;
+  background: #EDF5F8;
+  width: 100%;
+  border: 0;
+  border-radius: 8px; 
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #1D232F;
+}
+
+
+.form button {
+  font-family: "Verdana", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #EF2859;
+  width: 100%;
+  border: 0px;
+  border-radius: 8px;
+  padding: 15px;
+  color: #F5FAFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+.form button:hover,.form button:active,.form button:focus {
+   background: #30394B;
+}
+
+.imagem{
+	margin-bottom:15px;
+	width:255px;
+}
